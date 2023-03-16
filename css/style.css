@@ -1,0 +1,40 @@
+/* Outfit font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    height: 85vh;
+}
+.main-component{
+    background-color: white;
+    border: 2px solid white;
+    width: 275px;
+    text-align: center;
+    border-radius: 13px;
+    margin: 14vh auto;
+}
+.qr-component{
+    padding: 10px;
+}
+.qr-component img{
+    width: 250px;
+    border-radius: 13px;
+}
+.lower-component{
+    padding: 0 17px;
+    margin: 20px 0;
+}
+.text-big{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.text-small{
+    font-size: 15px;
+    opacity: 0.5;
+}
