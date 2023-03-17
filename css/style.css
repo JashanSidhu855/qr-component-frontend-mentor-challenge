@@ -8,15 +8,19 @@
 body{
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    height: 85vh;
+}
+.parent-of-everything{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .main-component{
     background-color: white;
     border: 2px solid white;
     width: 275px;
-    text-align: center;
     border-radius: 13px;
-    margin: 14vh auto;
 }
 .qr-component{
     padding: 10px;
